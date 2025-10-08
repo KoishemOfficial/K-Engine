@@ -1,0 +1,1 @@
+$data modify storage k-e:bind_menu action append value {label:$(label),width:$(width),action:{type:"minecraft:run_command",command:"$(command)"}}

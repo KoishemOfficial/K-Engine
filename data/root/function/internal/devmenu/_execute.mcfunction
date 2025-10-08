@@ -1,0 +1,1 @@
+$dialog show @s {type:"minecraft:multi_action",title:"K-Engine DEV Menu [CTRL+SHIFT]",inputs:[],can_close_with_escape:1b,pause:0b,after_action:"close","columns": $(columns),actions:$(action)}

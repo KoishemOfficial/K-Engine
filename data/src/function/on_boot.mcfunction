@@ -1,0 +1,1 @@
+# Runs once after executing function root:api/util/on_boot_reset and re-joining

@@ -1,0 +1,1 @@
+$data modify storage k-e:bind_menu columns set value $(value)

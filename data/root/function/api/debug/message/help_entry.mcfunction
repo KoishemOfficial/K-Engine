@@ -1,0 +1,1 @@
+$execute if function root:api/debug/if_debug run tellraw @a [{color:"aqua",text:" • $(command)"},{color:"light_purple",text:" {"},{color:"gold",text:"$(args)"},{color:"light_purple",text:"}"}]

@@ -1,0 +1,1 @@
+execute if score K-Engine.Debug.toggle K-Engine matches 1 run return 1

@@ -1,0 +1,1 @@
+execute if function root:api/debug/if_debug if predicate sys:inputs/shift if predicate sys:inputs/sprint run function root:internal/devmenu/_execute with storage k-e:bind_menu
