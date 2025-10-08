@@ -1,1 +1,16 @@
 execute unless entity @s[predicate=sys:inputs/w] run tag @s remove K-Engine.inputs.w_triggered
+execute unless entity @s[predicate=sys:inputs/a] run tag @s remove K-Engine.inputs.a_triggered
+execute unless entity @s[predicate=sys:inputs/s] run tag @s remove K-Engine.inputs.s_triggered
+execute unless entity @s[predicate=sys:inputs/d] run tag @s remove K-Engine.inputs.d_triggered
+execute unless entity @s[predicate=sys:inputs/jump] run tag @s remove K-Engine.inputs.jump_triggered
+execute unless entity @s[predicate=sys:inputs/crouch] run tag @s remove K-Engine.inputs.crouch_triggered
+execute unless entity @s[predicate=sys:inputs/sprint] run tag @s remove K-Engine.inputs.sprint_triggered
+execute unless entity @s[predicate=sys:inputs/slot0] run tag @s remove K-Engine.inputs.slot0_triggered
+execute unless entity @s[predicate=sys:inputs/slot1] run tag @s remove K-Engine.inputs.slot1_triggered
+execute unless entity @s[predicate=sys:inputs/slot2] run tag @s remove K-Engine.inputs.slot2_triggered
+execute unless entity @s[predicate=sys:inputs/slot3] run tag @s remove K-Engine.inputs.slot3_triggered
+execute unless entity @s[predicate=sys:inputs/slot4] run tag @s remove K-Engine.inputs.slot4_triggered
+execute unless entity @s[predicate=sys:inputs/slot5] run tag @s remove K-Engine.inputs.slot5_triggered
+execute unless entity @s[predicate=sys:inputs/slot6] run tag @s remove K-Engine.inputs.slot6_triggered
+execute unless entity @s[predicate=sys:inputs/slot7] run tag @s remove K-Engine.inputs.slot7_triggered
+execute unless entity @s[predicate=sys:inputs/slot8] run tag @s remove K-Engine.inputs.slot8_triggered
