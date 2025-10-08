@@ -7,6 +7,9 @@ execute unless score K-Engine.Debug.toggle K-Engine matches 0.. run scoreboard p
 # Clear the devmenu shortcuts
 data remove storage k-e:bind_menu action
 
+# Module redirection
+function sys:inputs/private/_load
+
 # Redirect to the src
 function src:on_load
 function src:config

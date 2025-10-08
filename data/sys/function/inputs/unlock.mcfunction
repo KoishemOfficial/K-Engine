@@ -1,0 +1,1 @@
+$function sys:inputs/private/unlock/$(input)

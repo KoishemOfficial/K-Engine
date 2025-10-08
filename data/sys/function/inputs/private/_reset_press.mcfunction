@@ -1,0 +1,1 @@
+execute unless entity @s[predicate=sys:inputs/w] run tag @s remove K-Engine.inputs.w_triggered

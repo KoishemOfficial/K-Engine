@@ -1,0 +1,1 @@
+execute if entity @s[predicate=sys:inputs/crouch,tag=!K-Engine.inputs.crouch_lock] run return 1

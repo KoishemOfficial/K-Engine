@@ -1,0 +1,2 @@
+$execute if entity @s[tag=K-Engine.inputs.$(input)_lock] run return run tag @s remove K-Engine.inputs.$(input)_lock
+$execute if entity @s[tag=!K-Engine.inputs.$(input)_lock] run return run tag @s add K-Engine.inputs.$(input)_lock
