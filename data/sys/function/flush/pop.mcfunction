@@ -1,5 +1,5 @@
-$execute if data storage k-e:flush $(sys).node_list.data[{entry:"$(node)"}] run function root:api/debug/message/success {sys:"$(sys).", message:"Deleted node: $(node)"}
-$execute unless data storage k-e:flush $(sys).node_list.data[{entry:"$(node)"}] run function root:api/debug/message/error {sys:"$(sys).", message:"Node $(node) is not found."}
+$execute if data storage k-e:flush $(sys).node_list.data[{entry:"$(node)"}] run function root:api/debug/message/success {sys:"flush", message:"Deleted node: $(node) from $(sys) module"}
+$execute unless data storage k-e:flush $(sys).node_list.data[{entry:"$(node)"}] run function root:api/debug/message/error {sys:"flush", message:"Node $(node) from $(sys) module is not found."}
 
 $data remove storage k-e:flush $(sys).node_list.data[{entry:"$(node)"}]
 
