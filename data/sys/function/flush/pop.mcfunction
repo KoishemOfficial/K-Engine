@@ -3,4 +3,4 @@ $execute unless data storage k-e:flush $(sys).node_list.data[{entry:"$(node)"}] 
 
 $data remove storage k-e:flush $(sys).node_list.data[{entry:"$(node)"}]
 
-$execute unless data storage k-e:flush $(sys).node_list.data[0] run function sys:flush/private/_clear_temp {sys:$(sys)}
+$execute unless data storage k-e:flush $(sys).node_list.data run function sys:flush/private/_clear_temp {sys:$(sys)}
