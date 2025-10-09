@@ -1,0 +1,1 @@
+$data remove storage k-e:flush $(sys).node_list.data[{entry:"$(node)"}]
