@@ -11,4 +11,4 @@ $function sys:flush/private/_run with storage k-e:flush $(sys).node_list
 
 $execute unless data storage k-e:flush $(sys).node_list.data run function sys:flush/private/_clear_temp with storage k-e:flush $(sys)
 
-$function root:api/debug/message/success {sys:"$(sys)", message:"Deleted all nodes"}
+$function root:api/debug/message/success {sys:"flush", message:"Deleted all $(sys) nodes"}

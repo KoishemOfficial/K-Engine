@@ -1,1 +1,1 @@
-$function root:api/debug/message/success {sys:"$(sys)", message:"Deleted all nodes across all modules"}
+function root:api/debug/message/success {sys:"flush", message:"Deleted all nodes across all modules"}
