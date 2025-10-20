@@ -1,2 +1,2 @@
-$execute unless score K-Engine.schedule.$(node).pause K-Engine.schedule matches 1 unless score K-Engine.schedule.$(node).current_delay K-Engine.schedule matches ..0 run scoreboard players remove K-Engine.schedule.$(node).current_delay K-Engine.schedule 1
-$execute if score K-Engine.schedule.$(node).current_delay K-Engine.schedule matches ..0 run function sys:schedule/private/_done {node:$(node)}
+$execute unless score K-Engine.schedule.$(node).delay K-Engine.schedule matches ..0 unless score K-Engine.schedule.$(node).pause K-Engine.schedule matches 1 unless score K-Engine.schedule.$(node).current_delay K-Engine.schedule matches ..0 run scoreboard players remove K-Engine.schedule.$(node).current_delay K-Engine.schedule 1
+$execute unless score K-Engine.schedule.$(node).delay K-Engine.schedule matches ..0 if score K-Engine.schedule.$(node).current_delay K-Engine.schedule matches ..0 run function sys:schedule/private/_done {node:$(node)}
