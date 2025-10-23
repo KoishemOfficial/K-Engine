@@ -4,4 +4,4 @@ function root:api/debug/message/help_entry {command:"/create",args:"node | delay
 function root:api/debug/message/help_entry {command:"/delete_all",args:"-"}
 function root:api/debug/message/help_entry {command:"/delete",args:"node"}
 function root:api/debug/message/help_entry {command:"/set_delay",args:"node | delay"}
-function root:api/debug/message/help_hooks {hooks:"done | delete | set_delay | pause | resume"}
+function root:api/debug/message/help_hooks {hooks:"timeout | delete | set_delay | pause | resume"}
