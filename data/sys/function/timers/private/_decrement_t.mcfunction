@@ -1,0 +1,2 @@
+$scoreboard players remove K-Engine.timers.$(node).start_t K-Engine.timers 1
+$execute if score K-Engine.timers.$(node).start_t K-Engine.timers matches ..-1 run function sys:timers/private/_decrement_s {node:$(node)}

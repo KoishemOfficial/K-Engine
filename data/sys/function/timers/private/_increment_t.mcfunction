@@ -1,0 +1,2 @@
+$scoreboard players add K-Engine.timers.$(node).start_t K-Engine.timers 1
+$execute if score K-Engine.timers.$(node).start_t K-Engine.timers matches 20 run function sys:timers/private/_increment_s {node:$(node)}
