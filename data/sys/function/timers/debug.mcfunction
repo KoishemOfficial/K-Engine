@@ -1,2 +1,2 @@
 $function sys:timers/export {node:$(node)}
-$title @s actionbar {"nbt":"$(node).export.stringified","storage":"k-e:timers"}
+$title @s actionbar {"nbt":"$(node).export.$(format)","storage":"k-e:timers"}
