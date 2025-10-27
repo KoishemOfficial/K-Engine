@@ -1,31 +1,31 @@
 function root:api/config/debug/on
 
 function root:api/devmenu/columns {value:5}
-function root:api/devmenu/add_shortcut {\
-    label:{color:"yellow",text: "☀ Day"},\
-    command:"time set noon",\
-    width:50\
-}
-function root:api/devmenu/add_shortcut {\
-    label:[{color:"blue",text: "🌙",bold:true},{bold:false,text:" Night"}],\
-    command:"time set midnight",\
-    width:50\
-}
-function root:api/devmenu/add_shortcut {\
-    label:[{color:"aqua",text: "🌤",bold:true},{bold:false,text:" Clear"}],\
-    command:"weather clear",\
-    width:50\
-}
-function root:api/devmenu/add_shortcut {\
-    label:{color:"aqua",text: "🌧 Rain"},\
-    command:"weather rain",\
-    width:50\
-}
-function root:api/devmenu/add_shortcut {\
-    label:{color:"aqua",text: "⛈ Thunder"},\
-    command:"weather thunder",\
-    width:65\
-}
+# function root:api/devmenu/add_shortcut {\
+#     label:{color:"yellow",text: "☀ Day"},\
+#     command:"time set noon",\
+#     width:50\
+# }
+# function root:api/devmenu/add_shortcut {\
+#     label:[{color:"blue",text: "🌙",bold:true},{bold:false,text:" Night"}],\
+#     command:"time set midnight",\
+#     width:50\
+# }
+# function root:api/devmenu/add_shortcut {\
+#     label:[{color:"aqua",text: "🌤",bold:true},{bold:false,text:" Clear"}],\
+#     command:"weather clear",\
+#     width:50\
+# }
+# function root:api/devmenu/add_shortcut {\
+#     label:{color:"aqua",text: "🌧 Rain"},\
+#     command:"weather rain",\
+#     width:50\
+# }
+# function root:api/devmenu/add_shortcut {\
+#     label:{color:"aqua",text: "⛈ Thunder"},\
+#     command:"weather thunder",\
+#     width:65\
+# }
 function root:api/devmenu/add_shortcut {\
     label:[{text:"⟳",bold:true},{text: " Reload",bold:false}],\
     command:"reload",\
