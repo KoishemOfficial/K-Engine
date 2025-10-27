@@ -1,1 +1,0 @@
-function sys:flush/run {sys:caption}

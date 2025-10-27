@@ -1,2 +1,0 @@
-$execute if data storage k-e:caption $(id).import[$(index)].text unless data storage k-e:caption $(id).import[$(index)].tag run scoreboard players set K-Engine.caption.type K-Engine.caption 0
-$execute if data storage k-e:caption $(id).import[$(index)].tag unless data storage k-e:caption $(id).import[$(index)].text run scoreboard players set K-Engine.caption.type K-Engine.caption 1
