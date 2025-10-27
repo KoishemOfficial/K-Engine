@@ -1,1 +1,1 @@
-$execute if function root:api/debug/if_debug run tellraw @a [{color:"yellow",text:"ℹ "},{"color":"gray","text":"["},{"color":"#3FA9F5",text:"$(sys)"},{"color":"gray","text":"] "},{color:"yellow",text:"Command list"}]
+$execute if function root:api/debug/if_debug run tellraw @a [{color:"yellow",text:"\nℹ "},{"color":"gray","text":"["},{"color":"#3FA9F5",text:"$(sys)"},{"color":"gray","text":"] "},{color:"yellow",text:"Command list\n"}]
