@@ -1,0 +1,22 @@
+$scoreboard players reset K-Engine.dialogue.$(id).len K-Engine.dialogue
+$scoreboard players reset K-Engine.dialogue.$(id).char K-Engine.dialogue
+$scoreboard players reset K-Engine.dialogue.$(id).char_prediction K-Engine.dialogue
+$scoreboard players reset K-Engine.dialogue.$(id).type K-Engine.dialogue
+$scoreboard players reset K-Engine.dialogue.$(id).current_len K-Engine.dialogue
+$scoreboard players reset K-Engine.dialogue.$(id).step K-Engine.dialogue
+$scoreboard players reset K-Engine.dialogue.$(id).size K-Engine.dialogue
+$scoreboard players reset K-Engine.dialogue.$(id).index K-Engine.dialogue
+$scoreboard players reset K-Engine.dialogue.$(id).text_index K-Engine.dialogue
+$scoreboard players reset K-Engine.dialogue.$(id).obj_text_index K-Engine.dialogue
+$scoreboard players reset K-Engine.dialogue.$(id).tag_index K-Engine.dialogue
+
+$data remove storage k-e:dialogue $(id).temp_text
+$data remove storage k-e:dialogue $(id).current_text
+$data remove storage k-e:dialogue $(id).step
+$data remove storage k-e:dialogue $(id).len
+$data remove storage k-e:dialogue $(id).char
+$data remove storage k-e:dialogue $(id).index
+$data remove storage k-e:dialogue $(id).obj_text_index
+$data remove storage k-e:dialogue $(id).text_index
+$data remove storage k-e:dialogue $(id).import
+$data remove storage k-e:dialogue $(id).tag_index

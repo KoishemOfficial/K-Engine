@@ -1,0 +1,2 @@
+$function sys:hooks/add {sys:dialogue,node:$(id),hook:$(text_index),command:"scoreboard players set K-Engine.dialogue.$(id).pause K-Engine.dialogue $(value)"}
+$data remove storage k-e:dialogue $(id).value

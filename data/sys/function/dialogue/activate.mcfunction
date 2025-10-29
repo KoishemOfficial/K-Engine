@@ -1,0 +1,3 @@
+$execute if score K-Engine.dialogue.$(node).run K-Engine.dialogue matches 1 run function sys:dialogue/private/_activate with storage k-e:dialogue $(node)
+$execute if score K-Engine.dialogue.$(node).actionbar K-Engine.dialogue matches 1 run function sys:dialogue/private/_actionbar with storage k-e:dialogue $(node)
+$execute if score K-Engine.dialogue.$(node).actionbar K-Engine.dialogue matches 2 run function sys:dialogue/private/_force_actionbar with storage k-e:dialogue $(node)

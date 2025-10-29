@@ -1,0 +1,1 @@
+$data modify storage k-e:dialogue $(id).export_display append string storage k-e:dialogue $(id).export_text[$(obj_index)].0[].text 0 1

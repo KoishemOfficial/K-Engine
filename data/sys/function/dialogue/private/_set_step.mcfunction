@@ -1,0 +1,2 @@
+$data modify storage k-e:dialogue $(id).step set from storage k-e:dialogue $(id).import[$(index)].tag.value
+$execute store result score K-Engine.dialogue.$(id).step K-Engine.dialogue run data get storage k-e:dialogue $(id).step
