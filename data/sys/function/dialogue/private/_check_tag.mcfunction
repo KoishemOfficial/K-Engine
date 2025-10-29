@@ -2,4 +2,5 @@ $execute if data storage k-e:dialogue $(id).import[$(index)].tag{type:"step"} ru
 $execute if data storage k-e:dialogue $(id).import[$(index)].tag{type:"delay"} run function sys:dialogue/private/_set_delay_redirect with storage k-e:dialogue $(id)
 $execute if data storage k-e:dialogue $(id).import[$(index)].tag{type:"actionbar"} run function sys:dialogue/private/_set_actionbar_redirect with storage k-e:dialogue $(id)
 $execute if data storage k-e:dialogue $(id).import[$(index)].tag{type:"pause"} run function sys:dialogue/private/_pause_redirect with storage k-e:dialogue $(id)
+$execute if data storage k-e:dialogue $(id).import[$(index)].tag{type:"typing"} run data modify storage k-e:dialogue $(id).typing set from storage k-e:dialogue $(id).import[$(index)].tag.command
 $execute if data storage k-e:dialogue $(id).import[$(index)].tag{type:"hook"} run function sys:dialogue/private/_hook_redirect with storage k-e:dialogue $(id)

@@ -1,15 +1,17 @@
 # Runs every time the world is restarted, or on /reload
 
-function sys:dialogue/create {node:test,import:[\
+function sys:dialogue/create {node:d1,import:[\
     {tag:{type:"actionbar",value:true}},\
+    {tag:{type:"typing",command:"playsound minecraft:entity.armadillo.scute_drop master @a"}},\
     \
     {text:""},\
-    {text:"Some red text",color:"red"},\
+    {tag:{type:"pause",value:20}},\
+    {text:"Какой-то бла-бла-бла текст номер 1",color:"white"},\
     \
     {tag:{type:"pause",value:20}},\
     \
-    {text:" Some green text",bold:true,color:"green"},\
+    {text:" типа красни текст типа страшн",bold:true,color:"red"},\
     \
     {tag:{type:"hook",command:"say End of the dialogue"}},\
-    {tag:{type:"actionbar",value:false}},\
+    {tag:{type:"actionbar",value:force}},\
 ]}
