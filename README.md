@@ -6,12 +6,12 @@ A not-so-lightweight Minecraft datapack engine for map development.
 - `hooks` – signal system for event-driven interactions
 - `flush` – control unit for handling node deletion
 - `inputs` – multiplayer friendly wasd sprint jump crouch detection and much more
+- `dialogues` – dialogues with typing effects and tag system
 ## Planned
 - `menus` – backend for interactive menus and dev shortcuts.
 - `paths` – easy pathfinding for NPCs/entities.
 - `cameras` – cinematic camera controls with easing and keyframes.
 - `3D_triggers` – cubic triggers that detect entity enter/exit.
-- `dialogues` – dialogues with typing effects and tag system
 
 ## Note / Disclaimer
 K-Engine is a personal passion project and **not the most optimized way to develop Minecraft maps**.  
