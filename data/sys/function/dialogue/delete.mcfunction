@@ -14,6 +14,13 @@ $scoreboard players reset K-Engine.dialogue.$(node).delay K-Engine.dialogue
 $scoreboard players reset K-Engine.dialogue.$(node).display_index K-Engine.dialogue
 $scoreboard players reset K-Engine.dialogue.$(node).pause K-Engine.dialogue
 
+$scoreboard players reset K-Engine.dialogue.$(node).actionbar K-Engine.dialogue
+$scoreboard players reset K-Engine.dialogue.$(node).run K-Engine.dialogue
+$scoreboard players reset K-Engine.dialogue.$(node).display_size K-Engine.dialogue
+$scoreboard players reset K-Engine.dialogue.$(node).export_index K-Engine.dialogue
+$scoreboard players reset K-Engine.dialogue.$(node).obj_index K-Engine.dialogue
+$scoreboard players reset K-Engine.dialogue.$(node).obj_size K-Engine.dialogue
+
 $function sys:hooks/emit {sys:dialogue,hook:delete,node:$(node)}
 
 $function sys:flush/pop {sys:dialogue,node:$(node)}
