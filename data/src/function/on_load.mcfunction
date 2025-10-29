@@ -6,6 +6,7 @@ function sys:dialogue/create {node:d1,import:[\
     \
     {text:""},\
     {tag:{type:"pause",value:20}},\
+    {tag:{type:"typing",command:"playsound minecraft:block.note_block.hat master @a"}},\
     {text:"Какой-то бла-бла-бла текст номер 1",color:"white"},\
     \
     {tag:{type:"pause",value:20}},\
