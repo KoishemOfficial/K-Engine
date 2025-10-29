@@ -3,4 +3,6 @@ $execute unless data storage k-e:flush $(sys).node_list.data[{entry:"$(node)"}] 
 
 $data remove storage k-e:flush $(sys).node_list.data[{entry:"$(node)"}]
 
+$function sys:hooks/pop_node {sys:$(sys),node:$(node)}
+
 $execute unless data storage k-e:flush $(sys).node_list.data run function sys:flush/private/_clear_temp {sys:$(sys)}
