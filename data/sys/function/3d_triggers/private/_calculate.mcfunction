@@ -26,3 +26,12 @@ $execute if score K-Engine.3d_triggers.$(id).dz_safe K-Engine.3d_triggers matche
 $execute store result storage k-e:3d_triggers $(id).dx_safe double 0.001 run scoreboard players get K-Engine.3d_triggers.$(id).dx_safe K-Engine.3d_triggers
 $execute store result storage k-e:3d_triggers $(id).dy_safe double 0.001 run scoreboard players get K-Engine.3d_triggers.$(id).dy_safe K-Engine.3d_triggers
 $execute store result storage k-e:3d_triggers $(id).dz_safe double 0.001 run scoreboard players get K-Engine.3d_triggers.$(id).dz_safe K-Engine.3d_triggers
+
+# Cleanup
+$scoreboard players reset K-Engine.3d_triggers.$(id).dx_safe K-Engine.3d_triggers
+$scoreboard players reset K-Engine.3d_triggers.$(id).dy_safe K-Engine.3d_triggers
+$scoreboard players reset K-Engine.3d_triggers.$(id).dz_safe K-Engine.3d_triggers
+
+$scoreboard players reset K-Engine.3d_triggers.$(id).size_x K-Engine.3d_triggers
+$scoreboard players reset K-Engine.3d_triggers.$(id).size_y K-Engine.3d_triggers
+$scoreboard players reset K-Engine.3d_triggers.$(id).size_z K-Engine.3d_triggers
