@@ -7,7 +7,7 @@ A not-so-lightweight Minecraft datapack engine for map development.
 - `flush` – control unit for handling node deletion
 - `inputs` – multiplayer friendly wasd sprint jump crouch detection and much more
 - `dialogues` – dialogues with typing effects and tag system
-- `3D_triggers` – cubic triggers that detect entity enter/exit.
+- `trigger3d` – cubic triggers that detect entity enter/exit.
 ## Planned
 - `menus` – backend for interactive menus and dev shortcuts.
 - `paths` – easy pathfinding for NPCs/entities.

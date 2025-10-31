@@ -1,1 +1,0 @@
-$function sys:3d_triggers/private/_activate with storage k-e:3d_triggers $(node)

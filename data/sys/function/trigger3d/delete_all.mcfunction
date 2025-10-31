@@ -1,0 +1,1 @@
+function sys:flush/run {sys:"trigger3d"}

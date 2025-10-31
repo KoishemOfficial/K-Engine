@@ -1,1 +1,0 @@
-function sys:flush/run {sys:"3d_triggers"}
