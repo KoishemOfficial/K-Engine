@@ -1,0 +1,2 @@
+$kill @e[tag=K-Engine.3d_triggers.$(id).anchor]
+$execute unless entity @e[tag=K-Engine.3d_triggers.$(id).anchor] run summon item_display $(pos) {Tags:["K-Engine.3d_triggers.$(id).anchor"],teleport_duration:3}

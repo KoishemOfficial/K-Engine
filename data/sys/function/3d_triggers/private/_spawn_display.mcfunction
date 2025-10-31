@@ -1,0 +1,2 @@
+$kill @e[tag=K-Engine.3d_triggers.$(id).display]
+$execute unless entity @e[tag=K-Engine.3d_triggers.$(id).display] run summon block_display $(pos) {Tags:["K-Engine.3d_triggers.$(id).display"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[$(x)f,$(y)f,$(z)f]},block_state:{Name:"minecraft:red_stained_glass"},teleport_duration:3}
