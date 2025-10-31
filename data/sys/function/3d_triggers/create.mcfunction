@@ -10,8 +10,6 @@ $execute unless data storage k-e:3d_triggers node_list.data[{entry:"$(node)"}] r
 
 $scoreboard players set K-Engine.3d_triggers.$(node).triggered K-Engine.3d_triggers 0
 
-$function sys:hooks/pop_node {sys:"3d_triggers",node:$(node)}
-
 $function sys:flush/log {sys:"3d_triggers", node:"$(node)"}
 
 $function root:api/debug/message/success {sys:"3d_triggers", message:"Created node: $(node)"}
