@@ -9,4 +9,4 @@ $data modify storage k-e:hooks $(sys).temp.command set from storage k-e:hooks $(
 
 $execute unless score K-Engine.hooks.list.id K-Engine.hooks >= K-Engine.hooks.list.size K-Engine.hooks run function sys:hooks/private/_display with storage k-e:hooks $(sys).temp
 
-$execute if score K-Engine.hooks.list.id K-Engine.hooks >= K-Engine.hooks.list.size K-Engine.hooks run function sys:hooks/private/_clear_temp {sys:$(sys)}
+$execute if score K-Engine.hooks.list.id K-Engine.hooks >= K-Engine.hooks.list.size K-Engine.hooks run function sys:hooks/private/_clear_temp {sys:"$(sys)"}
