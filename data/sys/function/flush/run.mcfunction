@@ -9,4 +9,4 @@ scoreboard players add K-Engine.flush.node_list.size K-Engine.flush 1
 
 $function sys:flush/private/_run with storage k-e:flush $(sys).node_list
 
-$execute if score K-Engine.flush.node_list.size K-Engine.flush matches ..1 run funcation sys:flush/private/_clear_temp {sys:"$(sys)", amount:0}
+$execute if score K-Engine.flush.node_list.size K-Engine.flush matches ..1 run function sys:flush/private/_clear_temp {sys:"$(sys)", amount:0}
