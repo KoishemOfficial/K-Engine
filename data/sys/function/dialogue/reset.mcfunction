@@ -16,3 +16,5 @@ $execute store result score K-Engine.dialogue.$(node).obj_size K-Engine.dialogue
 
 $data modify storage k-e:dialogue $(node).export_display set value [{text:""}]
 $data modify storage k-e:dialogue $(node).typing set value "return 1"
+
+$function root:api/debug/message/success {sys:"dialogue", message:"Reset node: $(node)"}
