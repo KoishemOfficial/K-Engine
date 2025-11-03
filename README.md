@@ -8,8 +8,8 @@ A not-so-lightweight Minecraft datapack engine for map development.
 - `inputs` – multiplayer friendly wasd sprint jump crouch detection and much more
 - `dialogues` – dialogues with typing effects and tag system
 - `trigger3d` – cubic triggers that detect entity enter/exit.
+- `ui` – backend for interactive menus and interfaces
 ## Planned
-- `menus` – backend for interactive menus and dev shortcuts.
 - `paths` – easy pathfinding for NPCs/entities.
 - `cameras` – cinematic camera controls with easing and keyframes.
 
