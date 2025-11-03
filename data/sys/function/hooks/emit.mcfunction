@@ -1,5 +1,6 @@
 scoreboard objectives add K-Engine.hooks dummy
 
+$data modify storage k-e:hooks $(sys).temp.command set value "return 1"
 $data modify storage k-e:hooks $(sys).temp.command set from storage k-e:hooks $(sys).$(node).data.$(hook)[0].command
 $data modify storage k-e:hooks $(sys).temp.sys set value "$(sys)"
 $data modify storage k-e:hooks $(sys).temp.hook set value "$(hook)"
