@@ -1,0 +1,1 @@
+$function sys:ui/private/_activate with storage k-e:ui $(node)

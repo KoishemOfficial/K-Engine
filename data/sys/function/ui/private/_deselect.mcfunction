@@ -1,0 +1,1 @@
+$function sys:hooks/emit {sys:ui,hook:$(previous_obj)_deselect,node:$(id)}

@@ -1,0 +1,1 @@
+$function sys:hooks/add {sys:ui,node:$(node),hook:$(name)_$(input),command:"$(command)"}
