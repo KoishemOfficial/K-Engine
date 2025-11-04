@@ -1,9 +1,9 @@
 # K-Engine Datapack
 A not-so-lightweight Minecraft datapack engine for map development made by Koishem.
 
-Discord: koishem
-Telegram: @KoishemOff
-GitHub: https://github.com/KoishemOfficial
+- Discord: koishem
+- Telegram: @KoishemOff
+- GitHub: https://github.com/KoishemOfficial
 
 ## Modules
 - `timers` – unified timers & stopwatches
