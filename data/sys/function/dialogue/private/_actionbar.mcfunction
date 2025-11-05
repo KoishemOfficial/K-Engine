@@ -1,1 +1,1 @@
-$title @a actionbar $(export_display)
+$title @s actionbar $(export_display)
