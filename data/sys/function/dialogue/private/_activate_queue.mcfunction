@@ -1,0 +1,2 @@
+$function sys:dialogue/activate {node:$(current_value)}
+$execute if score K-Engine.dialogue_queue.$(id).index K-Engine.dialogue_queue <= K-Engine.dialogue_queue.$(id).size K-Engine.dialogue_queue if score K-Engine.dialogue.$(current_value).run K-Engine.dialogue matches 0 run function sys:dialogue/private/_increment_queue_index with storage k-e:dialogue_queue $(id)
