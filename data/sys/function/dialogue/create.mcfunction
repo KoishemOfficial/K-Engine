@@ -1,4 +1,4 @@
-$data merge storage k-e:dialogue {$(node):{id:$(node),import:$(import),typing:"return 1",step:1,export_index:0,display_index:0,obj_index:0,text_index:0,obj_text_index:0,tag_index:0,export_display:[{text:""}],export_text:[],export_tag:[]}}
+$data merge storage k-e:dialogue {$(node):{id:$(node),import:$(import),typing:"return 1",step:1,export_index:0,display_index:0,obj_index:0,text_index:0,obj_text_index:0,tag_index:0,export_display:[{text:""}],export_text:[]}}
 
 scoreboard objectives add K-Engine.dialogue dummy
 
