@@ -1,8 +1,8 @@
 scoreboard objectives add K-Engine.dialogue_queue dummy
 
-$data merge storage k-e:dialogue_queue {$(node):{id:$(node),list:[$(list)]}}
+$data merge storage k-e:dialogue_queue {$(node):{id:$(node),queue:[$(queue)]}}
 
-$execute store result score K-Engine.dialogue_queue.$(node).size K-Engine.dialogue_queue run data get storage k-e:dialogue_queue $(node).list 
+$execute store result score K-Engine.dialogue_queue.$(node).size K-Engine.dialogue_queue run data get storage k-e:dialogue_queue $(node).queue 
 $scoreboard players remove K-Engine.dialogue_queue.$(node).size K-Engine.dialogue_queue 1
 
 $scoreboard players set K-Engine.dialogue_queue.$(node).index K-Engine.dialogue_queue 0

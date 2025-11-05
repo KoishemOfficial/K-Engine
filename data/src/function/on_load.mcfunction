@@ -1,6 +1,6 @@
 # Runs every time the world is restarted, or on /reload
 
-function sys:dialogue/create_queue {node:q1,list:"d1, d2, d3"}
+function sys:dialogue/create_queue {node:q1,queue:"d1, d2, d3"}
 
 function sys:dialogue/create {node:d1,import:[\
     {tag:{type:"actionbar",value:true}},\

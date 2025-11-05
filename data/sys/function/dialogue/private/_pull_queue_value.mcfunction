@@ -1,1 +1,1 @@
-$data modify storage k-e:dialogue_queue $(id).current_value set from storage k-e:dialogue_queue $(id).list[$(index)]
+$data modify storage k-e:dialogue_queue $(id).current_value set from storage k-e:dialogue_queue $(id).queue[$(index)]
