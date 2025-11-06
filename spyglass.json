@@ -1,0 +1,91 @@
+{
+	"env": {
+		"dataSource": "GitHub",
+		"dependencies": [
+			"@vanilla-mcdoc"
+		],
+		"feature": {
+			"codeActions": true,
+			"colors": true,
+			"completions": true,
+			"documentHighlighting": true,
+			"documentLinks": true,
+			"foldingRanges": true,
+			"formatting": true,
+			"hover": true,
+			"inlayHint": {
+				"enabledNodes": [
+					"mcfunction:command_child/unknown"
+				]
+			},
+			"semanticColoring": true,
+			"selectionRanges": true,
+			"signatures": true
+		},
+		"gameVersion": "1.21.10",
+		"language": "Default",
+		"permissionLevel": 2,
+		"plugins": [],
+		"mcmetaSummaryOverrides": {},
+		"useFilePolling": false
+	},
+	"format": {
+		"blockStateBracketSpacing": { "inside": 1 },
+		"blockStateCommaSpacing": { "before": 0, "after": 1 },
+		"blockStateEqualSpacing": { "before": 0, "after": 1 },
+		"blockStateTrailingComma": false,
+		"eol": "auto",
+		"nbtArrayBracketSpacing": { "inside": 1 },
+		"nbtArrayCommaSpacing": { "before": 0, "after": 1 },
+		"nbtArraySemicolonSpacing": { "after": 1 },
+		"nbtArrayTrailingComma": false,
+		"nbtByteSuffix": "b",
+		"nbtCompoundBracketSpacing": { "inside": 1 },
+		"nbtCompoundColonSpacing": { "before": 0, "after": 1 },
+		"nbtCompoundCommaSpacing": { "before": 0, "after": 1 },
+		"nbtCompoundTrailingComma": false,
+		"nbtDoubleOmitSuffix": false,
+		"nbtDoubleSuffix": "d",
+		"nbtFloatSuffix": "f",
+		"nbtListBracketSpacing": { "inside": 1 },
+		"nbtListCommaSpacing": { "before": 0, "after": 1 },
+		"nbtListTrailingComma": false,
+		"nbtLongSuffix": "L",
+		"nbtShortSuffix": "s",
+		"selectorBracketSpacing": { "inside": 1 },
+		"selectorCommaSpacing": { "before": 0, "after": 1 },
+		"selectorEqualSpacing": { "before": 0, "after": 1 },
+		"selectorTrailingComma": false,
+		"timeOmitTickUnit": false
+	},
+	"lint": {
+		"blockStateSortKeys": null,
+		"nbtCompoundSortKeys": null,
+		"selectorSortKeys": null,
+
+		"commandStringQuote": null,
+		"nbtKeyQuote": null,
+		"nbtPathQuote": null,
+		"nbtStringQuote": null,
+		"selectorKeyQuote": null,
+
+		"idOmitDefaultNamespace": null,
+
+		"nameOfNbtKey": null,
+		"nameOfObjective": null,
+		"nameOfScoreHolder": null,
+		"nameOfTag": null,
+		"nameOfTeam": null,
+
+		"nbtArrayLengthCheck": true,
+		"nbtBoolean": null,
+		"nbtListLengthCheck": null,
+		"nbtTypeCheck": "loosely",
+
+		"undeclaredSymbol": [
+			{
+				"then": { "declare": "block" }
+			}
+		]
+	}
+}
