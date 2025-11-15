@@ -10,7 +10,7 @@ scoreboard players operation K-Engine.global.node_amount K-Engine.global += K-En
 scoreboard players operation K-Engine.global.node_amount K-Engine.global += K-Engine.trigger3d.node_amount K-Engine.global
 scoreboard players operation K-Engine.global.node_amount K-Engine.global += K-Engine.ui.node_amount K-Engine.global
 
-tellraw @a ["Node amount: ",{"score":{"name":"K-Engine.global.node_amount","objective":"K-Engine.global"}}]
+execute if function root:api/debug/if_debug run tellraw @a [{color:"aqua",text:" • Node amount: "},{color:"gold","score":{"name":"K-Engine.global.node_amount","objective":"K-Engine.global"}}]
 
 scoreboard players reset K-Engine.global.node_amount K-Engine.global
 scoreboard players reset K-Engine.dialogue.node_amount K-Engine.global
