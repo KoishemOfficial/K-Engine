@@ -10,7 +10,7 @@ scoreboard players operation K-Engine.gc.node_amount K-Engine.gc += K-Engine.tim
 scoreboard players operation K-Engine.gc.node_amount K-Engine.gc += K-Engine.trigger3d.node_amount K-Engine.gc
 scoreboard players operation K-Engine.gc.node_amount K-Engine.gc += K-Engine.ui.node_amount K-Engine.gc
 
-tellraw @p ["Node amount: ",{"score":{"name":"K-Engine.gc.node_amount","objective":"K-Engine.gc"}}]
+tellraw @a ["Node amount: ",{"score":{"name":"K-Engine.gc.node_amount","objective":"K-Engine.gc"}}]
 
 scoreboard players reset K-Engine.gc.node_amount K-Engine.gc
 scoreboard players reset K-Engine.dialogue.node_amount K-Engine.gc
