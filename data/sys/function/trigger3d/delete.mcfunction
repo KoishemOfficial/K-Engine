@@ -10,4 +10,4 @@ $scoreboard players reset K-Engine.trigger3d.$(node).triggered_prev K-Engine.tri
 $kill @e[tag=K-Engine.trigger3d.$(node).display,type=block_display]
 $kill @e[tag=K-Engine.trigger3d.$(node).anchor,type=item_display]
 
-$function sys:flush/pop {sys:"trigger3d",node:$(node)}
+$function sys:gc/pop {sys:"trigger3d",node:$(node)}

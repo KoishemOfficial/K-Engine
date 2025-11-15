@@ -1,1 +1,1 @@
-function sys:flush/run {sys:"trigger3d"}
+function sys:gc/run {sys:"trigger3d"}

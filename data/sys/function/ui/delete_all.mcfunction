@@ -1,1 +1,1 @@
-function sys:flush/run {sys:ui}
+function sys:gc/run {sys:ui}

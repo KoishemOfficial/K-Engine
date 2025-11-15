@@ -14,4 +14,4 @@ $scoreboard players reset K-Engine.timers.$(node).reverse K-Engine.timers
 
 $function sys:hooks/emit {sys:timers,hook:delete,node:$(node)}
 
-$function sys:flush/pop {sys:timers,node:$(node)}
+$function sys:gc/pop {sys:timers,node:$(node)}

@@ -1,1 +1,1 @@
-function sys:flush/run {sys:timers}
+function sys:gc/run {sys:timers}
