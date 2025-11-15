@@ -1,1 +1,1 @@
-scoreboard players set K-Engine.Debug.toggle K-Engine 1
+scoreboard players set K-Engine.Debug.toggle K-Engine.global 1

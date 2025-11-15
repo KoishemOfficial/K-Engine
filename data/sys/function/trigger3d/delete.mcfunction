@@ -11,3 +11,5 @@ $kill @e[tag=K-Engine.trigger3d.$(node).display,type=block_display]
 $kill @e[tag=K-Engine.trigger3d.$(node).anchor,type=item_display]
 
 $function sys:gc/pop {sys:"trigger3d",node:$(node)}
+
+execute unless data storage k-e:trigger3d node_list.data[0] run data remove storage k-e:trigger3d node_list

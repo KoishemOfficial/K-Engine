@@ -1,2 +1,2 @@
-execute if score @s K-Engine.on_boot matches 1 if score K-Engine.on_boot_lock K-Engine matches 0 run function root:internal/boot/_execute
+execute if score @s K-Engine.on_boot matches 1 if score K-Engine.on_boot_lock K-Engine.global matches 0 run function root:internal/boot/_execute
 execute if score @s K-Engine.on_boot matches 0.. run scoreboard players set @s K-Engine.on_boot -1
