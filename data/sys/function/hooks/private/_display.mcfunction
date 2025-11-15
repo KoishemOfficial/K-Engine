@@ -1,4 +1,4 @@
-$tellraw @a [{color:"aqua",text:" • "},{color:blue,text:"sys: "},{color:yellow,text:"$(sys)"},{color:white,text:" | "},{color:green,text:"hook: "},{color:yellow,text:"$(hook)"},{color:white,text:" | "},{color:aqua,text:"id: "},{color:yellow,text:"$(display_id)"},{color:white,text:" | "},{color:light_purple,text:"command: "},{color:yellow,text:"$(command)"}]
+$tellraw @a [{color:"aqua",text:" • "},{color:"#3FA9F5",text:"sys: "},{color:yellow,text:"$(sys)"},{color:white,text:" | "},{color:green,text:"hook: "},{color:yellow,text:"$(hook)"},{color:white,text:" | "},{color:aqua,text:"id: "},{color:yellow,text:"$(display_id)"},{color:white,text:" | "},{color:light_purple,text:"command: "},{color:yellow,text:"$(command)"}]
 
 scoreboard players add K-Engine.hooks.list.display_id K-Engine.hooks 1
 $execute store result storage k-e:hooks $(sys).temp.display_id int 1 run scoreboard players get K-Engine.hooks.list.display_id K-Engine.hooks

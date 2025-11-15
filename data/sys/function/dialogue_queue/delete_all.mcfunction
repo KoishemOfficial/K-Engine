@@ -1,0 +1,1 @@
+function sys:gc/run {sys:dialogue_queue}

@@ -1,1 +1,0 @@
-$function sys:dialogue/private/_activate_queue with storage k-e:dialogue_queue $(node)

@@ -1,1 +1,1 @@
-function sys:flush/run {sys:dialogue}
+function sys:gc/run {sys:dialogue}

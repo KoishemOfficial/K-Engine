@@ -12,7 +12,7 @@ function root:api/devmenu/add_shortcut {\
     width:90\
 }
 function root:api/devmenu/add_shortcut {\
-    label:{color:"red",text: "🗑 Flush all"},\
-    command:"function sys:flush/run_all",\
+    label:{color:"red",text: "🗑 gc all"},\
+    command:"function sys:gc/run_all",\
     width:65\
 }

@@ -23,4 +23,4 @@ $scoreboard players reset K-Engine.dialogue.$(node).obj_size K-Engine.dialogue
 
 $function sys:hooks/emit {sys:dialogue,hook:delete,node:$(node)}
 
-$function sys:flush/pop {sys:dialogue,node:$(node)}
+$function sys:gc/pop {sys:dialogue,node:$(node)}

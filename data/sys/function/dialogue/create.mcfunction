@@ -32,6 +32,6 @@ $function sys:hooks/pop_node {sys:dialogue,node:$(node)}
 
 $function sys:dialogue/private/_convert with storage k-e:dialogue $(node)
 
-$function sys:flush/log {sys:dialogue, node:"$(node)"}
+$function sys:gc/log {sys:dialogue, node:"$(node)"}
 
 $function root:api/debug/message/success {sys:"dialogue", message:"Created node: $(node)"}
