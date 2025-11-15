@@ -8,7 +8,7 @@ A not-so-lightweight Minecraft datapack engine for map development made by Koish
 ## Modules
 - `timers` – unified timers & stopwatches
 - `hooks` – signal system for event-driven interactions
-- `flush` – control unit for handling node deletion
+- `gc` – control unit for handling node deletion
 - `inputs` – multiplayer friendly wasd sprint jump crouch detection and much more
 - `dialogues` – dialogues with typing effects and tag system
 - `trigger3d` – cubic triggers that detect entity enter/exit.
