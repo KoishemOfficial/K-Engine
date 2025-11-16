@@ -6,18 +6,3 @@ function root:api/debug/add_shortcut {\
     command:"reload",\
     width:55\
 }
-function root:api/debug/add_shortcut {\
-    label:[{color:"aqua",text: "🆔",bold:true},{text:" Node amount",bold:false}],\
-    command:"function root:api/util/node_count",\
-    width:85\
-}
-function root:api/debug/add_shortcut {\
-    label:{color:"red",text: "❌ Disable Debug"},\
-    command:"function root:api/config/debug/off",\
-    width:90\
-}
-function root:api/debug/add_shortcut {\
-    label:{color:"red",text: "🗑 GC all"},\
-    command:"function sys:gc/run_all",\
-    width:65\
-}
