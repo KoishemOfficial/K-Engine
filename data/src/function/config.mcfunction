@@ -6,3 +6,8 @@ function root:api/debug/add_shortcut {\
     command:"reload",\
     width:55\
 }
+function root:api/debug/add_shortcut {\
+    label:[{text:"⟳",bold:true},{text: " Алмаз",bold:false}],\
+    command:"give @a diamond 64",\
+    width:55\
+}
