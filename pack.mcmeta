@@ -1,6 +1,21 @@
 {
   "pack": {
     "description": "K-Engine made by Koishem",
-    "pack_format": 81
+    "min_format": [
+      999,
+      1
+    ],
+    "max_format": [
+      999,
+      1
+    ]
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "^advancement\\/.*"
+      }
+    ]
   }
 }
